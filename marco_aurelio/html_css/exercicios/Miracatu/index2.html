@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Prog. - HTML</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+        }
+        header {
+            color: white;
+            font-size: 40px;
+            background-color: bisque;
+            margin: 5px;
+            border: 2px solid black;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black;
+            text-decoration: none;
+        }
+
+        header:hover {
+            color: black;
+            background-color: red;
+            padding: 50px;
+            margin: 5px;
+            border: 2px solid   black;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px black;
+            text-decoration: none;
+            transition: 2s;
+        }
+
+        main {
+            background-color: aqua;
+            margin: 5px;
+            border: 2px solid black;
+            height: 1000px;
+            padding: 10px;
+        }
+
+        form {
+            font-size: 20px;
+        }
+
+        article {
+            background-color: rgb(191, 149, 230);
+            margin: 5px; 
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        aside {
+            background-color: rgb(144, 233, 121);
+            margin: 5px; 
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: rgb(243, 168, 205);
+            margin: 5px; 
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">
+            Header
+        </a>
+    </header>
+    
+    <main>
+        <form action="index2.html">
+            <label for="email">Email</label>
+            <input style="display: block;" id="email" name="qualquercoisa" placeholder="coloque um email válido" />
+
+            <label for="password">Senha</label>
+            <input style="display: block" id="password" type="password" name="password" />
+
+            <label for="text">Texto</label>
+            <input style="display: block" id="text" name="text" />
+
+            <label for="checkbox">CheckBox</label>
+            <input style="display: block" id="checkbox" type="checkbox" name="checkbox" />
+
+            <label for="radio">Masculino</label>
+            <input style="display: block" id="radio" type="radio" name="sexo" value="masculino" />
+
+            <label for="radio">Feminino</label>
+            <input style="display: block" id="radio" type="radio" name="sexo" value="feminino" />
+
+            <label for="radio">Outro</label>
+            <input style="display: block" id="radio" type="radio" name="sexo" value="outro" />
+
+            <label for="range">Range</label>
+            <input style="display: block" id="range" type="range" name="range" />
+
+            <label for="number">Número</label>
+            <input style="display: block" id="number" type="number" name="number" />
+
+            <label for="file">Arquivo</label>
+            <input style="display: block" id="file" type="file" name="file" />
+            
+            <label for="date">Data</label>
+            <input style="display: block" id="date" type="date" name="date" />
+
+            <select style="display: block" name="dia da semana">Dia da Semana
+                <option value="Domingo">Domingo</option>
+                <option value="Segunda">Segunda</option>
+                <option value="Terça">Terça</option>
+                <option value="Quarta">Quarta</option>
+                <option value="Quinta">Quinta</option>
+                <option value="Sexta">Sexta</option>
+                <option value="Sabado">Sábado</option>
+            </select>
+
+            <textarea style="display: block" name="mensagem" rows="10"></textarea>
+
+            <button>Enviar</button>
+
+        </form>
+    </main>
+
+    <article>
+        Article
+    </article>
+
+    <aside>
+        Aside
+    </aside>
+
+    <footer>
+        Footer
+    </footer>
+
+    <div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Box</title>
+</head>
+<body>
+    <h1>Box Model</h1>
+        <p class="atributos">
+            <strong>Position Fixed</strong> - define que um elemento fica fixo, ou seja, colado no topo e na lateral esquerda do navegador, usando os scrolls, o objeto fica na mesma posição sempre, não mudando de lugar. <br>
+            <strong>Position Sticky</strong> - define que um elemento fique colado nas bordas do navegador, assim que os scrolls são acionados, os objetos colam nas bordas do navegador. <br>
+            <strong>Position Relative</strong> - define que um elemento fique a uma distância do elemento ao lado. <br>
+            <strong>Position Absolute</strong> - se comporta de duas maneiras, dentro de um static ele vai levar em consideração os limites da tela, dentro de um relative ele vai levar em consideração os limites elemento pai.
+        </p>
+    <h1>Background</h1>
+        <p class="atributos">
+            <strong>Background Image</strong> - permite que coloque uma imagem no fundo do HTLM. <br>
+            <strong>Background Repeat</strong> - permite que a imagem não repita usando o comando <strong>no-repeat</strong> <br>
+            <strong>Background Size: contain</strong> - permite que a imagem fique contida no máximo de qualidade possível.
+            <strong>Background Size: auto</strong> - permite que a imagem fique no valor ideal. <br>
+            <strong>Background Size: cover</strong> - permite que a imagem ocupe todo o espaço do bloco. <br>
+            <strong>Background Position</strong> - define o posicionamento da imagem dentro do bloco usando os valores: 20%(horizontal) 20%(vertical);.
+        </p>
+    <h1>Background</h1>
+        <p class="atributos">
+            <strong>Cores</strong> - utilizamos cores hexadecimal ou rgb.
+        </p>
+    <h1>Pseudo Classes & Pseudos Elementos</h1>
+        <p class="atributos">
+            <strong>Hover</strong> - adiciona um novo CSS pro elemento ao passar o mouse em cima.
+            <strong>Transition</strong> - período que a transição do CSS aconteça. <br>
+            <strong>Input: disable</strong> - utilize o comando border-color: red, para input desabilitado (.input disable). <br>   
+    <h1>Display</h1>
+            <p class="atributos">
+                <strong>Display inline</strong> - coloca dois elementos lado a lado, não é possível atribuir altura ou largura específica. <br>
+                <strong>Display inline-block</strong> - funciona como inline, mas nesse caso é possível atribuir altura e largura. <br>
+                <strong>Display block</strong> - adiciona uma quebra de linha em cada elemento. <br>
+                <strong>Display none</strong> - é a ausência de display, fica invível no documento HTML. <br>
+    <h1>Display Flex</h1>
+            <p class="atributos">
+                <strong>Display Flex</strong> - sempre vai ser inserido do bloco pai, isso vai ser refletido nos posicionamentos do blocos filhos. Quando inserimos, inicialmente ele vai colocar todos os filhos lado a lado. <br>
+                <strong style="font-size: 35px; background-color: rgba(255, 0, 0, 0.486); border: 5px solid black;">Flex Direction</strong> <br>
+                <strong>Flex-direction: row;</strong> - define a direção dos nossos itens, row é o valor padrão. <br>
+                <strong>Flex-direction: row-reverse;</strong> - inverte a ordem dos elementos e coloca do outro lado do navegador, sou seja, tudo ao contrário do modo padrão. <br>
+                <strong>Flex-direction: column;</strong> - os elementos vão se comportar como colunas. <br>
+                <strong>Flex-direction: column-reverse;</strong> - inverte a ordem dos elementos em colunas. <br>
+                <strong style="font-size: 35px; background-color: rgba(255, 0, 0, 0.486); border: 5px solid black;">Justify-content alinha os elementos horizontalmente</strong> <br>
+                <strong>Justify-content: flex-start</strong> - os elementos adotam o comportamento inicial. <br>
+                <strong>Justify-content: flex-end</strong> - os elementos vão estar do outro lado inverso do inicial, sem alterar a ordem dos elementos. <br>
+                <strong>Justify-content: center</strong> - deixa os elementos ao centro. <br>
+                <strong>Justify-content: space-between</strong> - separa os elementos ao máximo. <br>
+                <strong>Justify-content: space-around</strong> - separa os elementos ao máximo e faz espaçamentos nas laterais. <br>
+                <strong>Justify-content: space-evenly</strong> - deixa todos os espaçamentos iguais desde as laterais e entre os elementos também. <br>
+                <strong style="font-size: 35px; background-color: rgba(255, 0, 0, 0.486); border: 5px solid black;">Align-items alinha os elementos verticalmente</strong> <br>
+                <strong>Align-items: flex-start</strong> - alinha verticalmente no topo do navegador. <br>
+                <strong>Align-items: flex-end</strong> - alinha os elementos para o final do bloco pai. <br>
+                <strong>Align-items: center</strong> - alinha verticalmente ao centro do bloco pai. <br>
+            </p>
+        <h1>Display Grid</h1>
+            <p class="atributos">
+                <strong>Display Grid</strong> - é inserido no bloco pai, alterando os elementos nos blocos filhos. <br>
+                <strong>grid-template-columns</strong> - utilizando o comando "1fr 1fr 1fr ou repeat(3. 1fr) ou 10% 20% 70%" divide os elementos em três colunas. <br>
+                <strong>grid-template-rows</strong> - utilizando o comando "repeat(2. 1fr)" divide os elementos em números de linhas. <br>
+                <strong>column-gape</strong> - define a distância entre as colunas. <br>
+                <strong>row-gap</strong> - define a distância entre as linhas. <br>
+            </p>
+        <h1>Keyframes</h1>
+        <p class="atributos">
+            <strong>@Keyframes</strong> from {border radius: 0} to {border-radius: 50%}, o quadrado vai virar um círculo. <br>
+            <strong>animation</strong> - indica o nome da animação configurada no <strong>@Keyframes</strong>. <br>
+            <strong>animation-duration</strong> - indica quanto tempo essa animação vai durar. <br>
+        </p>
+        <h1>Media Query</h1>
+        <p class="atributos">
+            <strong>Responsividade</strong> - é a adaptação de um site para diferentes dispositivos. <br>
+            <strong>@media</strong> - utiliza para adaptar o site em diferentes tamanhos. <br>
+            <strong>@media(min-width)</strong> ou <strong>@media(max-width)</strong> configura o tamanho mínimo da largura e o tamanho máximo da largura. <br>
+
+
+        </p>
+        
+
+            <div class="minhadiv">
+                <div class="caixa">1</div>
+                <div class="caixa">2</div>
+                <div class="caixa">3</div>
+                <div class="caixa">4</div>
+            </div>
+
+            </p>
+
+        </p>
+ 
+    
+    <div class="minhadiv">
+        <div class="filhodiv">
+
+        </div>
+        <div class="filhodiv">
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(241, 133, 133), rgb(247, 96, 96), red);
+}
+
+/* Página G1 */
+
+#logog1 {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 90%;
+    padding: 25px;
+    margin: auto;
+}
+
+#not {
+    display: grid;
+    text-align: center;
+    border: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 10px; 
+}
+
+h1 {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#voo1 {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+#latam {
+    display: block;
+    margin: auto;
+}
+
+#desc_latam {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+#not_voo {
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 100px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}

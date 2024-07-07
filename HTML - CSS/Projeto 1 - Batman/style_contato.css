@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    background-color: #000;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+}
+
+li:hover {
+    color: #d21617;
+    transition: 1s;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('batman-banner.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+main {
+    background-color: gray;
+    width: 97%;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.texto_formulario {
+    float: right; 
+    width: 46%; 
+    height: 590px; 
+    background-color: #d21617; 
+    margin: 2px;
+    border: 5px solid black;
+      text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escritorio > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.escritorio {
+    float: left; 
+    width: 23%; 
+    height: 290px; 
+    background-color: #d21617; 
+    margin: 2px;
+    border: 5px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefone {
+    float: left; 
+    width: 23%; 
+    height: 290px; 
+    background-color: #d21617; 
+    margin: 2px;
+    border: 5px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fax {
+    float: left; 
+    width: 23%; 
+    height: 290px; 
+    background-color: #d21617; 
+    margin: 2px;
+    border: 5px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    float: left; 
+    width: 23%; 
+    height: 290px; 
+    background-color: #d21617; 
+    margin: 2px;
+    border: 5px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear {
+    clear: both;
+}

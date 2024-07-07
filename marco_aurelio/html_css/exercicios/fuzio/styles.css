@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+#faixa-do-topo {
+    background-color: rgb(22, 199, 180);
+    color: white;
+    padding: 15px 0;
+    height: 20px;
+}
+
+#faixa-do-topo a {
+    color: white;
+    text-decoration: none;
+}
+
+#faixa-do-topo span {
+    float: left;
+    margin-right: 50px;
+}
+
+#faixa-do-topo span.float-right {
+    float: right;
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    background-color: white;
+}
+
+#header .container {
+    height: 60px;
+}
+
+#header .container div {
+    float: left;
+    height: 60px;
+}
+
+#logo {
+    width: 120px;
+    margin-top: 12px;
+}
+
+#header .container div:nth-of-type(1) {
+    width: 250px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #eee;
+}
+
+#header .container .menu {
+    width: calc(99% - 452px);
+    text-align: center;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #eee;
+}
+
+#header .container div:nth-of-type(3) {
+    width: 200px;
+    text-align: right;
+}
+
+#header .container .menu a {
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+#header .container .botoes {
+    line-height: 60px;
+}
+
+#header .container .botoes i {
+    margin-left: 30px;
+}
+
+.pe_bola {
+    border-radius: 15px;
+    height: 145px;
+    width: 165px;
+    margin-bottom: 17px;
+}
+
+.happ {
+    color:  rgb(22, 199, 180);  
+}
+
+.happiness {
+    float: left;
+    font-family: 'Bebas Neue';
+    font-size: 60px; 
+    font-weight: 1000;
+    width: 38%; 
+    height: 300px; 
+    background-color: #f2f2f2; 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_chute {
+    float: right; 
+    width: 58%; 
+    height: 500px; 
+    background-color: #f2f2f2;
+    margin: 3px 2px 0px 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_best {
+    float: left; 
+    color: #888888;
+    width: 38%; 
+    height: 100px; 
+    background-color: #f2f2f2; 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get {
+    float: left; 
+    width: 38%; 
+    height: 95px; 
+    background-color: #f2f2f2; 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    width: 180px;
+    padding: 17px;
+    margin-right: 20px;
+}
+
+.fa-circle-play {
+    color: rgb(22, 199, 180);]
+    font-size: 50px;
+}
+
+.online {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    font-weight: 700;
+    width: 180px;
+    padding: 20px;
+}
+
+div.clear {
+    clear: both;
+}
+
+
+.fitness {
+    display: block;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    margin-top: 70px; 
+    margin-bottom: 5px;
+    height: 430px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.fitness > h1 {
+    margin: 0;
+}
+
+.underline {
+    color: rgb(22, 199, 180); 
+    margin-top: 5px; 
+}
+
+.provide {
+    font-family: 'Yanone';
+    color: #9e9d9d;
+
+}
+
+.container_gtfp {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.gridiron {
+    float: left; 
+    width: 24%; 
+    height: 200px; 
+    background-color: white; 
+    margin-left: 15px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touchdown {
+    float: left; 
+    width: 24%; 
+    height: 200px; 
+    background-color:white; 
+    margin-left: 15px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    float: left; 
+    width: 23%; 
+    height: 200px; 
+    background-color:white; 
+    margin-left: 15px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pigskin {
+    float: left; 
+    width: 23%; 
+    height: 200px; 
+    background-color:white; 
+    margin-left: 15px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridiron_glory {
+    background-color: #f2f2f2;
+    height: 170px;
+    margin: 50px;
+}
+
+.h1_margin {
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+.p_size {
+    font-size: 0.7em;
+}
+
+.i_fa_solid {
+    background-color: white;
+    padding: 17px;
+}
+
+.i_fa_solid:hover {
+    background-color: aqua;
+    color: white;
+}
+
+div.clear {
+    clear: both;
+}
+
+.everything {
+    float: left; 
+    width: 49%; 
+    height: 300px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_chute {
+    float: right; 
+    width: 49%; 
+    height: 300px; 
+    background-color: rgba(15, 46, 134, 0.432); 
+    margin: 3px 2px 0px 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear {
+    clear: both;
+}
+
+.upcoming {
+    display: block;
+    align-items: center;
+    background-color: rgb(0, 183, 255);
+    margin-left: 20px;
+    margin-top: 2px; 
+    height: 50px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.donate {
+    float: left; 
+    width: 32%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs1 {
+    float: left; 
+    width: 32%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket1 {
+    float: left; 
+    width: 31%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elevate {
+    float: left; 
+    width: 32%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs2 {
+    float: left; 
+    width: 32%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket2 {
+    float: left; 
+    width: 31%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.impact {
+    float: left; 
+    width: 32%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs3 {
+    float: left; 
+    width: 32%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket3 {
+    float: left; 
+    width: 31%; 
+    height: 100px; 
+    background-color: rgba(0, 255, 42, 0.575); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear {
+    clear: both;
+}
+
+.professional {
+    display: block;
+    align-items: center;
+    background-color: rgb(0, 183, 255);
+    margin-left: 20px;
+    margin-top: 2px; 
+    height: 100px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.xavier {
+    float: left; 
+    width: 31%; 
+    height: 300px; 
+    background-color: rgba(255, 0, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ezra {
+    float: left; 
+    width: 32%; 
+    height: 300px; 
+    background-color: rgba(255, 0, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.felix {
+    float: left; 
+    width: 32%; 
+    height: 300px; 
+    background-color: rgba(255, 0, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear {
+    clear: both;
+}
+
+.most {
+    display: block;
+    align-items: center;
+    background-color: rgba(255, 0, 221, 0.658);
+    margin-left: 20px;
+    margin-top: 2px; 
+    height: 100px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.bola {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chuteira_azul {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camisa {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chuteira_branca {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.garrafa {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bone {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.luva {
+    float: left; 
+    width: 23%; 
+    height: 300px; 
+    background-color: rgba(238, 255, 0, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear {
+    clear: both;
+}
+
+.explore {
+    display: block;
+    align-items: center;
+    background-color: rgba(0, 153, 255, 0.658);
+    width: 48%; 
+    margin-left: 20px;
+    margin-top: 2px; 
+    height: 100px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.lets {
+    float: left; 
+    width: 48%; 
+    height: 300px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    float: left; 
+    width: 48%; 
+    height: 300px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear { clear: both; }
+
+.subscribe {
+    display: block;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.658);
+    width: 48%; 
+    margin-left: 20px;
+    margin-top: 2px; 
+    height: 100px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.join {
+    float: left; 
+    width: 48%; 
+    height: 400px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_drible {
+    float: right; 
+    width: 23%; 
+    height: 200px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.making {
+    float: right; 
+    width: 23%; 
+    height: 200px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.integrative {
+    float: right; 
+    width: 23%; 
+    height: 200px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_integrative_bola {
+    float: right; 
+    width: 23%; 
+    height: 200px; 
+    background-color: rgba(0, 255, 106, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.clear { clear: both; }
+
+
+.touch {
+    float: left; 
+    width: 23%; 
+    height: 150px; 
+    background-color: rgba(0, 17, 255, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    float: left; 
+    width: 23%; 
+    height: 150px; 
+    background-color: rgba(0, 17, 255, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help {
+    float: left; 
+    width: 23%; 
+    height: 150px; 
+    background-color: rgba(0, 17, 255, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    float: left; 
+    width: 23%; 
+    height: 150px; 
+    background-color: rgba(0, 17, 255, 0.438); 
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: block;
+    align-items: center;
+    background-color: rgba(0, 255, 13, 0.658);
+    width: 48%; 
+    margin-left: 20px;
+    margin-top: 2px; 
+    height: 30px;
+    width: 95.4%; 
+    padding: 20px;
+    text-align: center;
+}

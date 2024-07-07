@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header {
+    display: block;
+    align-items: center;
+    background-color: yellow; 
+    height: 35px; 
+    padding: 20px;
+    text-align: center;
+}
+
+div.clear {
+    clear: both;
+}
+
+menu {
+    background-color: rgba(165, 42, 42, 0.527); 
+    height: 35px; 
+    padding: 20px;
+    text-align: center;
+}
+
+div.left {
+    float: left; 
+    width: 15%; 
+    height: 400px; 
+    background-color: rgba(255, 0, 0, 0.575); 
+    margin-top: 200px; 
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.carrossel { 
+    float: left;
+    width: 58%;
+    margin: auto; 
+    max-width: 10000px;
+    height: 400px; 
+    background-color: rgba(0, 0, 255, 0.493); 
+    margin-top: 200px; 
+    margin: 1%;
+    text-align: center;
+    overflow: scroll;
+}
+
+.carousel {
+    width: 10000px;
+}
+
+.slides {
+    background-color: rgba(0, 0, 0, 0.432);
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+div.right {
+    float: right; 
+    width: 15%; 
+    height: 400px; 
+    background-color: rgba(0, 128, 0, 0.61); 
+    margin-top: 200px; 
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.clear {
+    clear: both;
+}
+
+footer {
+    background-color: rgba(0, 255, 34, 0.603); 
+    height: 35px; 
+    padding: 20px;
+    text-align: center;
+}
+

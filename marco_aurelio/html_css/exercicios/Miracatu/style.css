@@ -1,0 +1,62 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: aquamarine;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    }
+
+#nav {
+    background-color: aquamarine;
+    font-size: 1.7em;
+    display: block;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(192, 162, 162), rgb(134, 77, 77), rgb(128, 23, 23));
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: 10px 10px 10px rgb(228, 107, 107);
+    box-shadow: 5px 5px 5px 5px;
+    width: 80%;
+    padding: 1.5em;
+    margin: auto;
+}
+
+h1 {
+    font-size: 45px;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+ol {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+}
+
+li {
+    
+}
+
+p {
+    text-indent: 100px;
+    font-size: 20px;
+}
+
+ul {
+    font-size: 30 px;
+    font-weight: bold;
+}

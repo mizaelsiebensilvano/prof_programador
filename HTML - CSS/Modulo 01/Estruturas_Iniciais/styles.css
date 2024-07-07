@@ -1,0 +1,147 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1 {
+    font-size: 50px;
+    background-color: rgba(87, 165, 87, 0.411);
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+h1:hover {
+    background-color: red;
+    transition: 1s;
+    color: white;
+}
+
+body h2 {
+    font-size: 35px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+main {
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+}
+
+.atributos {
+    font-size: 25px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+body {
+    height: 300vh;
+    width: 100%;
+}
+
+.minhadiv {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    animation: animacao;
+    animation-duration: 5s;
+    position: relative;
+}
+
+.filhodiv {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-position: 50% 50%;
+    animation: animacao;
+    animation-duration: 5s;
+    position: absolute;
+}   
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 5px solid blue;
+    animation: animacao;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes animacao {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    10% {
+        top: 20px;
+        left: 20px;
+    }
+    20% {
+        top: 40px;
+        left: 40px;
+    }
+    30% {
+        top: 60px;
+        left: 60px;
+    }
+    40% {
+        top: 80px;
+        left: 80px;
+    }
+    50% {
+        top: 100px;
+        left: 100px;
+    }
+    60% {
+        top: 120px;
+        left: 120px;
+    }
+    70% {
+        top: 140px;
+        left: 140px;
+    }
+    80% {
+        top: 160px;
+        left: 160px;
+    }
+    90% {
+        top: 180px;
+        left: 180px;
+    }
+    100% {
+        top: 200px;
+        left: 200px;
+    }
+}
+
+@media (min-width: 480px){
+    .minhadiv {
+        grid-template-columns: (2, 1fr);
+    }
+}

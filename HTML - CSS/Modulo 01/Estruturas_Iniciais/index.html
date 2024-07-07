@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Estruturas Iniciais</title>
+        <script>
+            
+        </script>
+    </head>
+<body>
+    <div>
+        <h1>Olá, Mundo!</h1>
+    </div>
+    <main>       
+        <div>
+            <h2>Atributos e Tags</h2>
+                <p class="atributos">
+                    Atributos servem principlamente para personalizar e adicionar funcionalidades a uma tag HTML. 
+                </p> 
+                <p class="atributos">
+                    Existem diversos atributos para tags e muitos tem seus próprios atributos. 
+                </p> 
+                <p class="atributos">
+                    Alguns atributos em comuns entre as tagas HTML. 
+                </p>
+
+            <h2>Tags Estruturais</h2>
+                <p class="atributos"><strong>Header</strong> - Essa tag define um cabeçalho. <br>
+                    <strong>Main</strong> - Essa tag representam o conteúdo principal do seu corpo. <br>
+                    <strong>Footer</strong> - Essa tag define um rodapé para a página. <br>
+                    <strong>Section</strong> - Essa tag define uma sessão para a sua página. <br>
+                    <strong>Article</strong> - Essa tag define um artigo da sua página. <br>
+                    <strong>Aside</strong> - Essa tag representa uma seção de uma página cujo conteúdo é tangencialmente relacionado ao conteúdo do se entorno. <br>
+                    <strong>Nav</strong> - Essa tag define um conteúdo de navegação. É muito utilizado em conjunto de listas e na criação de menus. <br>
+                    <strong>Div</strong> - Define uma divisão da página, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar o HTML. <br>
+                    <strong>class="_"</strong> - Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos); <br>
+                    <strong>id="_"</strong> - Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento); <br>
+                    <strong>style="_"</strong> - Permiete incluir elementos CSS dentro da tag;
+                </p>
+            <h2>Formulários</h2>
+                <p class="atributos">
+                    - Um <strong>formulário</strong> vai servir basicamente para inserir dados. <br>
+                    - A <strong>label</strong> vai ser uma espécie de "título" pra nosso <strong>input</strong>. <br>
+                <form class="atributos" action="./index.html">
+                    <label for="email">Email:</label>
+                    <input style="display: block" id="email" type="email" name="qualquercoisa" placeholder="coloque um email válido"> <br>
+                    <label for="password">Senha:</label>
+                    <input style="display: block" id="password" type="password" name="password"><br>
+                    <label for="text">Texto:</label>
+                    <input style="display: block" id="text" type="text" name="text"><br>
+                    <label for="CheckBox">CheckBox</label>
+                    <input style="display: block" id="CheckBox" type="CheckBox" name="CheckBox"><br>
+                    <label for="radio">Masculino</label>
+                    <input style="display: block" id="radio" type="radio" name="sexo" value="masculino"><br> 
+                    <label for="radio">Feminino</label>
+                    <input style="display: block" id="radio" type="radio" name="sexo" value="feminino"><br> 
+                    <label for="radio">Outro</label>
+                    <input style="display: block" id="radio" type="radio" name="sexo" value="outro"><br> 
+                    <label for="range">Range</label>
+                    <input style="display: block" id="range" type="range" name="range"><br>
+                    <label for="number">Número</label>
+                    <input style="display: block" id="number" type="number" name="number"><br>
+                    <label for="file">Arquivo</label>
+                    <input style="display: block" id="file" name="file"><br>
+                    <label for="date">Data</label>
+                    <input style="display: block" id="date" type="date" name="date"><br>
+                    
+                    <p>Dia da Semana
+                    <select style="display: block" name="dia da semana" id="dia da semana">Dia da semana
+                        <option value="Domingo">Domingo</option>
+                        <option value="Segunda">Segunda</option>
+                        <option value="Terça">Terça</option>
+                        <option value="Quarta">Quarta</option>
+                        <option value="Quinta">Quinta</option>
+                        <option value="Sexta">Sexta</option>
+                        <option value="Sábado">Sábado</option>
+                    </select></p>
+                    <p>Área de Texto
+                    <textarea style="display: block" name="mensagem" id="mensagem" cols="30" rows="10"></textarea></p>
+                    <button>Enviar</button>
+                </form>
+                </p>
+                <button class="atributos" onclicl="document.getElementById('player').play()">Play</button>
+            <button class="atributos" onclicl="document.getElementById('player').pause()">Pause</button>
+
+            <h2>Seletores CSS</h2>
+                <p class="atributos">
+                    <strong>Seletores CSS</strong> - é basicamente como vamos selecionar os nossos elementos HTML dentro do CSS ou do JavaScript para estilizarmos pelo CSS, ou dar vida a esses elementos por meio do JavaScript. <br>
+                    <strong>Seletor pelo home da tag</strong><br>
+                    <strong>Seletor pelo id</strong> - é o ponto <strong>.</strong><br>
+                    <strong>Seletor pela class</strong> - é a hashtag <strong>#</strong>
+            <h2>Seletores CSS</h2>
+                    <p class="atributos">
+                        <strong>Link CSS</strong> - como linkar a página HTML com o CSS: <br>
+                        <strong>&lt;link rel="stylesheet" href="style.css"&gt;</strong>
+            <h2>Medidas</h2>
+                    <p class="atributos">
+                        <strong>Medida Absoluta</strong> - <strong>px</strong> é o pixel  <br>
+                        <strong>Medidas Relativas</strong> - <strong>rem</strong> é relativo ao padrão configurado no início do HTML.  <br>
+                        <strong>Medidas Relativas</strong> - <strong>em</strong> é relativo a tag que é o pai dele. <br>
+            <h2>Width & Height</h2>
+                        <p class="atributos">
+                        <strong>Width</strong> é a largura. <br>
+                        <strong>Height</strong> é a altura. <br>
+                        </p>
+                    <h2><a href="index2.html">Página 2</a></h2>
+                    </p>
+            
+                    </p>
+
+                </p>
+        </div>
+    </main>
+</body>
+</html>

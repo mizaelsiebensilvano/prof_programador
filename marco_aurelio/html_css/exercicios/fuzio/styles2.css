@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+#faixa-do-topo {
+    background-color: rgb(32, 236, 236);
+    color: white;
+    height: 20px;
+    padding: 15px 0;
+}
+
+#faixa-do-topo span {
+    float: left;
+    margin-right: 50px;
+}
+
+#faixa-do-topo a {
+    color: white;
+    text-decoration: none;
+}
+
+#faixa-do-topo span.float-right {
+    float: right;
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    background-color: white;
+}
+
+#header .container {
+    height: 60px;
+}
+
+#header .container div {
+    float: left;
+}
+
+#logo {
+    width: 120px;
+    margin-top: 5px;
+}
+
+#header .container .menu {
+    width: calc(99% - 452px);
+    text-align: center;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #eee;
+    align-items: center;
+}
