@@ -1,0 +1,38 @@
+Lógica de programação?
+    conjunto de técnicas e conhecimentos
+    colocar intruções em uma sequência lógica para chegar em um determinado resultado
+    javascript
+
+Algorítmo?
+    sequência lógica
+        - email, senha
+        - clicar no botão de entrar
+        - mude o status para logado
+        - exibir mensagem de bem-vindo
+
+Hardware e Software
+
+Linguagens de máquina: compreendida pelo computador
+binário (bits) 0 e 1
+
+Linguagens de baixo nível
+    Ex.: Assembly
+
+Linguagens de alto nível
+    Linguagens compreendidas com mais facilidade pelos seres humanos
+        Ex.: javascript, python, c++, php
+
+-> nossa máquina não entende linguagens de alto nível
+-> precisa converter nosso código fonte de uma maneira que a máquina entende
+-> compilação e a interpretação
+
+compilado -> compila em um ou mais arquivos que a máquina entende
+                -> esse arquivo compilado é salvo
+                    -> são executados
+
+c -> é uma linguagem compilada
+
+interpretação -> tradução (interpretação) -> execução
+interpretador
+
+javascript -> é uma linguagem interpretada
