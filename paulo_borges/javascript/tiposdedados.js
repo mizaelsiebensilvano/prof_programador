@@ -14,17 +14,17 @@ Adontam o valor de TRUE ' '(string com caracteres), qualquer número diferente d
 */
 
 
-const nossaString = 'Mizael é'
-const outraString = 'Programador'
-const numero = 3
-const valorDaCompra = null
-// const undefined = undefined
-let valor
+// const nossaString = 'Mizael é'
+// const outraString = 'Programador'
+// const numero = 3
+// const valorDaCompra = null
+// // const undefined = undefined
+// let valor
 
-const boolean = false
+// const boolean = false
 
-const formado = false
+// const formado = false
 
-const faltosos = NaN
+// const faltosos = NaN
 
-console.log()
+// console.log()
