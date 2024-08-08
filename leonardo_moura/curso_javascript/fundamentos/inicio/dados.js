@@ -12,7 +12,21 @@
 // console.log(imposto)
 // console.log(precoFinal)
 
+// É muito importante atribuir bom nomes para variáveis
+
+// console.log(19.9 * 0.6)
+
 let preco = 19.90
 let desconto = 0.40
+let precoComDesconto = preco * (1 - desconto)
+// console.log(precoComDesconto)
 
-console.log(preco * (1 - desconto))
+let nome = "Caderno "
+let categoria = "Papelaria"
+console.log("Produto: " + nome
+    + "Categoria: " + categoria
+    + ", Preco: " + preco
+    + ", Desconto: " + desconto)
+
+    console.log(1 + 1)
+    console.log("1" + 1)
