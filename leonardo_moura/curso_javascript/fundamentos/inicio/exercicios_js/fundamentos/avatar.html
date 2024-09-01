@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar - DO/WHILE</title>
+    <style>
+        main {
+            border: 3px solid black;
+            height: 80vh;
+            width: 90vw;
+            position: relative;
+        }
+
+        img {
+            width: 50px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <img id="avatar" src="avatar.png">
+    </main>
+    <script>
+        const main = document.getElementById('main')
+
+        const larguraMax = main.clientWidth - 50
+
+        const minhaFuncao = function() {
+
+            const tamPers = 100
+            const img = document.getElementById('avatar')
+
+            let posHoriz = parseInt(img.style.left)
+            let posVert = parseInt(img.style.top)
+            if(!posHoriz) {
+                posHoriz = 0
+            }
+            if(!posVert) {
+                posVert = 0
+            }
+            if(posHoriz >= larguraMax) {
+                direcao = 'esquerda'
+            }
+            if(direcao == 'esquerda' && posHoriz <= 0) {
+                direcao = 'direita'
+            }
+            if(direcao == 'baixo' && posVert + passo >= alturaMax) {
+                direcao = 'cima'
+            }
+            if (posVert <= 0) {
+                direcao = 'baixo'
+            }
+            if(direcao == 'cima') {
+                posVert = posVert - passo
+            } else if (direcao == 'baixo') {
+                posVert = posVert + passo
+            } else if (direcao == 'esquerda') {
+                posHoriz = posHoriz - passo
+            } else {
+                posHoriz = posHoriz + passo
+            }
+        }
+
+            img.style.left = posHoriz + 'px'
+            img.style.top = posVert + 'px'
+
+        document.addEventListener('keydown', function(e){
+            switch (e.key) {
+                case 'ArrowUp':
+                    direcao = 'cima'
+                    break
+                case 'ArrowDown':
+                    direcao = 'baixo'
+                    break
+                case 'ArrowLeft':
+                    direcao = 'esquerda'
+                    break
+                case 'ArrowRight':
+                    direcao = 'direita'
+                    break
+            }
+
+            minhaFuncao()
+        })
+    </script>
+</body>
+</html>
