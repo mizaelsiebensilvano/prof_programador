@@ -1,0 +1,47 @@
+<html>
+  <head>
+  <title>PREVISÃO DO TEMPO</title>
+  <style>
+    body { 
+      font-family: Arial;
+    }
+    
+  </style>
+  </head>
+	<body>
+    <h1>PREVISÃO DO TEMPO</h1>
+    Verificando a temperatura: <input type="number" name="verif" id="verif"> graus Celsius.
+   		<input type="button" value="Verificar" onclick="verificarTemperatura()">
+    <div id="res"></div>
+	</body>
+
+<script>
+  // Crie a função aqui
+const verificarTemperatura = () => {
+  const inputTemp = document.querySelector('input#verif')
+	const res = document.querySelector('div#res')
+  const temperatura = Number(inputTemp.value)
+  
+  let mensagem = ''
+  
+  	if (temperatura < 0) {
+   			mensagem = `Está congelando!`
+ 	}  else if (temperatura > 0 && temperatura <= 15) {
+   			mensagem = `Está frio`
+ 	} else if (temperatura > 15 && temperatura <= 30) {
+   			mensagem = `Clima agradável`
+ 	} else if (temperatura > 30) {
+   			mensagem = `Está quente!` 
+ 	}
+
+  res.innerHTML = `<p>A temperatura atual é de <strong>${temperatura}</strong> Está congelando!</p>`
+}
+  
+// Testes
+/*
+console.log(verificarTemperatura(-5)); // "Está congelando!"
+console.log(verificarTemperatura(10)); // "Está frio!"
+console.log(verificarTemperatura(22)); // "Clima agradável."
+console.log(verificarTemperatura(35)); // "Está quente!" */
+</script>
+</html>  
