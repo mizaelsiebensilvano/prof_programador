@@ -44,18 +44,18 @@ console.log(converterTemperatura(0, "F")); // 32 (Celsius para Fahrenheit)
 console.log(converterTemperatura(25, "F")); // 77 (Celsius para Fahrenheit)
 console.log(converterTemperatura(50, "X")); // "Escala inválida" */
 
-  // Crie a função aqui
-  const converterTemperatura = (temperatura, escala) => {
-    if (escala === 'C') {
-  return (temperatura - 32) * 5 / 9)
-}	else if (escala === 'F') {
-      return (temperatura * 9 / 5) + 32
-} else { 
-  return "Escala inválida"
-}
-}
+// Crie a função aqui
+//   const converterTemperatura = (temperatura, escala) => {
+//     if (escala === 'C') {
+//   return (temperatura - 32) * 5 / 9)
+// }	else if (escala === 'F') {
+//       return (temperatura * 9 / 5) + 32
+// } else { 
+//   return "Escala inválida"
+// }
+// }
 
-console.log(converterTemperatura(100, "C")); // 37.777... (Fahrenheit para Celsius)
-console.log(converterTemperatura(0, "F")); // 32 (Celsius para Fahrenheit)
-console.log(converterTemperatura(25, "F")); // 77 (Celsius para Fahrenheit)
-console.log(converterTemperatura(50, "X")); // "Escala inválida"
+// console.log(converterTemperatura(100, "C")); // 37.777... (Fahrenheit para Celsius)
+// console.log(converterTemperatura(0, "F")); // 32 (Celsius para Fahrenheit)
+// console.log(converterTemperatura(25, "F")); // 77 (Celsius para Fahrenheit)
+// console.log(converterTemperatura(50, "X")); // "Escala inválida"
