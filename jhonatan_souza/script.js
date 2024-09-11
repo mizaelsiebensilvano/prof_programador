@@ -74,3 +74,6 @@
 // console.log(mesa)
 // temNaMesa('notebook', 'mouse')
 // console.log(mesa)
+
+for (let i = 1; i <= 5; i++) {
+    console.log("Número: " + i)
